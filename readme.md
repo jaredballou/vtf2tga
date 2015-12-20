@@ -10,11 +10,11 @@ Converts Valve Texture Format (.vtf) files to Targa (.tga) files.
 
 ### Compiling
 
-$g++ -std=c++11 vtf2tga.cpp -lVTFLib13 \`Magick++-config --cppflags --cxxflags --ldflags --libs\` -o vtf2tga.exe
+g++ -std=c++11 vtf2tga.cpp -lVTFLib13 `Magick++-config --cppflags --cxxflags --ldflags --libs` -o vtf2tga
 
 ### Usage
 
-$vtf2tga.exe "/path/to/.vtf" "/path/to/output/.tga"
+vtf2tga "/path/to/.vtf" "/path/to/output/.tga"
 
 ### License
 
